@@ -1,10 +1,10 @@
-import { Route, Routes, Navigate } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
+import Home from "../Pages/Home";
 import Login from "../Pages/Login";
+import Profile from "../Pages/PRofile";
 import Register from "../Pages/Register";
 import PrivateRoutes from "./PrivateRoutes";
-import PublicRoutes from "./PublicROutes";
-import Home from "../Pages/Home";
-import Profile from "../Pages/PRofile";
+import PublicRoutes from "./PublicRoutes";
 export default function AppRoutes() {
   return (
     <>
