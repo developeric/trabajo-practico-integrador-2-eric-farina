@@ -13,7 +13,7 @@ export default function AppRoutes() {
           <Route path="/register" element={<Register />} />
           <Route path="/profile" element={<Profile />} />
 
-        {/* <Route element={<PublicRoutes />}>
+        <Route element={<PublicRoutes />}>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/" element={<Navigate to={"/login"} />} />
@@ -23,7 +23,7 @@ export default function AppRoutes() {
           <Route path="/home" element={<Home />} />
           <Route path="/" element={<Navigate to={"/home"} />} />
           <Route path="*" element={<Navigate to={"/home"} />} />
-        </Route> */}
+        </Route>
       </Routes>
     </>
   );

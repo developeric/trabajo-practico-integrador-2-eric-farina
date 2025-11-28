@@ -16,5 +16,17 @@
   justify-content: center;
 }
 input{
-  border: 2px solid blue;
+  background-color: aliceblue;
+  display: grid;
+  color: #242424;
+  justify-content: center;
+  margin: 10px;
+}
+button:hover{
+  transition: 0.5s;
+  transform: translateY(-5px);
+  background-color: white;
+  color: #242424;
+  justify-items: center;
+  border-radius: 20px;
 }

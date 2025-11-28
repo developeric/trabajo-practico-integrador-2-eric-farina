@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { useForm } from "../Hooks/useForm";
+import { useForm } from "../hooks/useForm.js";
 
 export default function Register() {
   const navigate = useNavigate();
