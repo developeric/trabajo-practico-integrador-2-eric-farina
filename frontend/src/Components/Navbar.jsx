@@ -1,6 +1,7 @@
-
 export default function Navbar() {
   return (
-    <div>Navbar</div>
-  )
+    <>
+      <h1 className="Navbar"> Este Es El Navbar</h1>
+    </>
+  );
 }

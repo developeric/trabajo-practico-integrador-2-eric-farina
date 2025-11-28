@@ -15,18 +15,26 @@
   justify-items: center;
   justify-content: center;
 }
-input{
+input {
   background-color: aliceblue;
   display: grid;
   color: #242424;
   justify-content: center;
   margin: 10px;
 }
-button:hover{
+button:hover {
   transition: 0.5s;
   transform: translateY(-5px);
   background-color: white;
   color: #242424;
   justify-items: center;
   border-radius: 20px;
+}
+.Navbar {
+  margin-top: 0;
+  color: blueviolet;
+  display: flex;
+  background-color: aquamarine;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
